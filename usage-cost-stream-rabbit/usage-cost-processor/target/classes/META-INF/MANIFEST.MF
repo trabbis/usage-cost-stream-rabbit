@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: t917297
+Build-Jdk: 11.0.8
+Implementation-Title: usage-cost-processor
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: io.spring.dataflow.sample
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/usage-cost-stream-rabbit/usage-cost-processor-rabbit
+Created-By: Maven Integration for Eclipse
+
