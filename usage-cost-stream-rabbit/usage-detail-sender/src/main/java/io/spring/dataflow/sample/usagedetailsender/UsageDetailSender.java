@@ -20,7 +20,7 @@ public class UsageDetailSender {
 
 	private String[] users = {"Glenn", "Sabby", "Mark", "Janne", "Ilaya"};
 
-	@Scheduled(fixedDelay = 1000)
+	@Scheduled(fixedDelay = 1500)
 	public void sendEvents() {
 		UsageDetail usageDetail = new UsageDetail();
 		usageDetail.setUserId(this.users[new Random().nextInt(5)]);
